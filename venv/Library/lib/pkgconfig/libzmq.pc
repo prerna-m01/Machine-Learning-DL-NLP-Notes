@@ -1,0 +1,12 @@
+prefix=c:/Users/impre/OneDrive/Desktop/Bootcamp/venv/Library
+exec_prefix=c:/Users/impre/OneDrive/Desktop/Bootcamp/venv/Library
+libdir=c:/Users/impre/OneDrive/Desktop/Bootcamp/venv/Library/lib
+includedir=c:/Users/impre/OneDrive/Desktop/Bootcamp/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
